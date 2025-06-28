@@ -1,0 +1,37 @@
+{
+  "name": "mf_consumer",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@module-federation/retry-plugin": "^0.13.0",
+    "@mui/icons-material": "^7.0.2",
+    "@mui/material": "^7.0.2",
+    "@supabase/supabase-js": "^2.49.8",
+    "@types/node": "^22.15.2",
+    "axios": "^1.9.0",
+    "dompurify": "^3.2.6",
+    "react": "^18.3.1",
+    "react-cookie": "^8.0.1",
+    "react-dom": "^18.3.1",
+    "react-router": "^7.6.0",
+    "typescript-cookie": "^1.0.6",
+    "write-json-file": "^6.0.0",
+    "zustand": "^5.0.4"
+  },
+  "devDependencies": {
+    "@module-federation/rsbuild-plugin": "^0.13.0",
+    "@rsbuild/core": "^1.2.15",
+    "@rsbuild/plugin-react": "^1.1.1",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "~18.3.1",
+    "typescript": "^5.7.2"
+  }
+}
