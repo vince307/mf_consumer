@@ -54,6 +54,11 @@ pnpm build
 pnpm preview
 ```
 
+## Deployment
+
+This application is deployed to Vercel and available for presentation purposes at:  
+👉 [https://mf-consumer.vercel.app/](https://mf-consumer.vercel.app/)
+
 ## Configuration
 
 - **Module Federation:** The consumer is configured in [`module-federation.config.ts`](module-federation.config.ts) to fetch remote modules from a provider.
