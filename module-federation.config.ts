@@ -5,7 +5,7 @@ export default createModuleFederationConfig({
   name: 'mf_consumer',
   remotes: {
     // 'provider': 'rslib_provider@https://unpkg.com/module-federation-rslib-provider@latest/dist/mf/mf-manifest.json',
-  'provider': 'rslib_provider@https://mf-provider.vercel.app/mf-manifest.json',
+  'provider': 'rslib_provider@https://mf-provider.vercel.app:3001/mf-manifest.json',
   },
   shareStrategy: 'loaded-first',
   shared: {
