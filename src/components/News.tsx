@@ -123,7 +123,6 @@ export default function Hero() {
 			sx={(theme) => ({
 				width: "100%",
 				backgroundRepeat: "no-repeat",
-
 				backgroundImage:
 					"radial-gradient(ellipse 80% 50% at 50% -20%, hsl(210, 100%, 90%), transparent)",
 				...theme.applyStyles("dark", {
@@ -137,7 +136,7 @@ export default function Hero() {
 					display: "flex",
 					flexDirection: "column",
 					alignItems: "center",
-					pt: { xs: 14, sm: 20 },
+					pt: { xs: 10, sm: 13 },
 					pb: { xs: 8, sm: 12 },
 				}}
 			>
